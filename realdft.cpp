@@ -16,7 +16,7 @@ void print(const std::string& name, const std::vector<double>& vector) {
   std::cout << "]" << std::endl;
 }
 
-//Synthesis equation for real DFT as of Chpt 8 of Scientisst and Engineers guide to DSP
+//Synthesis equation for real DFT as of Chpt 8 of Scientist and Engineers guide to DSP
 void inverse_dft(
   std::vector<double> &x, 
   const std::vector<double> &re_x, 
@@ -48,7 +48,7 @@ void inverse_dft(
   }
 }
 
-//DFT for just the real component as per Chpt 8 of Scientisst and Engineers guide to DSP
+//DFT for just the real component as per Chpt 8 of Scientist and Engineers guide to DSP
 void dft(
   const std::vector<double> &signal, 
   std::vector<double> &re_x, 
